@@ -1,0 +1,43 @@
+*{  
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100vw;
+    height: 595px;
+    background-image: url('assets/header-background.png') ;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+.title img{
+    width: 350px;
+}
+.kylo-figure{
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 107px;
+    left: 57px;
+}
+.kylo-figure img{
+    width: 70vw;
+    z-index: 1;
+}
+.legion {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 383px;
+}
+.legion img {
+    width: 150px;
+}
