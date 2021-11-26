@@ -107,3 +107,47 @@ header{
     font-size: 15px;
 
 }
+.sectionrow {
+    /*! float: right; */
+    width: 1vw;
+    height: 2vh;
+}
+.sectionrow img{
+    width: 100px;
+}
+
+.estrutura-game {
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 114px;
+}
+#sith {
+    /*! width: 762px; */
+    height: 700px;
+    position: relative;
+    left: 206px;
+}
+#rey {
+    /*! width: 350px; */
+    height: 608px;
+    position: relative;
+    top: 102px;
+}
+.estrutura-game-nav {
+    /*! width: 1000px; */
+    font-size: 25px;
+}
+.estrutura-game-nav ul li {
+    list-style: none;
+}
+.estrutura-game-nav h2{
+    font-size: 42px;
+    text-align: right;
+}
+.estrutura-game-nav span{
+    font-weight: bolder;
+}
+
+
