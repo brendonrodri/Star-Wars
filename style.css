@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 *{  
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
-    width: 100vw;
+    width: 100%;
     height: 595px;
     background-image: url('assets/header-background.png') ;
     background-size: cover;
@@ -21,7 +24,7 @@ header{
     width: 350px;
 }
 .kylo-figure{
-    width: 100%;
+    width: 89%;
     display: flex;
     position: relative;
     bottom: 107px;
@@ -40,4 +43,67 @@ header{
 }
 .legion img {
     width: 150px;
+}
+
+/* Main */
+
+
+.main-container1 {
+    width: 98vw;
+    height: 173vh;
+    background: url('assets/main-container01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.start-play-box {
+    width: 20vw;
+    height: 59vh;
+    position: relative;
+    left: 200px;
+    top: -65px;
+    z-index: 1;
+}
+.start-play-box img {
+    width: 100%;
+}
+
+.about__game {
+    width:54vw;
+    height: 35vh;
+    font-family: 'OpenSans';
+    display: flex;
+    
+    position: relative;
+    bottom: 263px;
+    /*! left: 500px; */
+    float: right;
+}
+
+.about__game p{
+    text-align: right;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+#battlefront {
+    width: 25vw;
+    height: 15vw;
+    position: relative;
+    top: 15px;
+}
+.about__game--title {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 8px;
+}
+.about__game--title img {
+    padding: 25px 0px;
+    width: 12vw;
+    height: 1vh;
+}
+.about__game--p-img {
+    display: flex;
+    font-size: 15px;
+
 }
