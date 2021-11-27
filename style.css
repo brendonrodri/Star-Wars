@@ -117,7 +117,7 @@ header{
 }
 
 .estrutura-game {
-    width: 90vw;
+    width: 89vw;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -144,7 +144,7 @@ header{
 }
 .estrutura-game-nav ul li {
     list-style: none;
-    width: 30vw;
+    width: 32vw;
     padding: 10px;
 }
 .estrutura-game-nav h2{
@@ -156,4 +156,69 @@ header{
     font-weight: bolder;
 }
 
+.list-hover:hover {
+    background: #d74430;
+    color: white;
+    padding: 0px 10px;
+}
 
+/* Main container 2 */
+
+.main-container2 {
+    width: 98.8vw;
+    height: 173vh;
+    background: #2d2d2d;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.main-container2-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+}
+#img-gallery {
+    width: 40vw;
+    margin-top: 5px;
+}
+#img-gallery img {
+    width: 100%;
+}
+
+.main-container2 h2{
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 100px;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.gallery-flex {
+    display: flex;
+    flex-direction: row;
+    /*! flex-wrap: wrap; */
+    width: 62vw;
+    padding-bottom: 1px;
+}
+.gallery-flex img  {
+    width: 100%;
+}
+.gallery-hover {
+    /*! width: 50vw; */
+    /*! position: relative; */
+    top: 140px;
+}
+.gallery-img-hover {
+    opacity: 0;
+    transition: 1s;
+    position: relative;
+    bottom: 138px;
+}
+.gallery-img-hover:hover {
+    opacity: 1;
+}
