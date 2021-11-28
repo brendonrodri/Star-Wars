@@ -11,6 +11,11 @@ header{
     background-image: url('assets/header-background.png') ;
     background-size: cover;
 }
+footer{
+    width: 100%;
+    color: #fff;
+    font-weight: lighter;
+}
 .title{
     display: flex;
     justify-content: space-around;
@@ -44,10 +49,7 @@ header{
 .legion img {
     width: 150px;
 }
-
 /* Main */
-
-
 .main-container1 {
     width: 98vw;
     height: 173vh;
@@ -55,7 +57,6 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 .start-play-box {
     width: 20vw;
     height: 59vh;
@@ -67,19 +68,15 @@ header{
 .start-play-box img {
     width: 100%;
 }
-
 .about__game {
     width:54vw;
     height: 35vh;
     font-family: 'OpenSans';
     display: flex;
-    
     position: relative;
     bottom: 263px;
-    /*! left: 500px; */
     float: right;
 }
-
 .about__game p{
     text-align: right;
     margin: 0px 10px;
@@ -105,17 +102,14 @@ header{
 .about__game--p-img {
     display: flex;
     font-size: 15px;
-
 }
 .sectionrow {
-    /*! float: right; */
     width: 1vw;
     height: 2vh;
 }
 .sectionrow img{
     width: 100px;
 }
-
 .estrutura-game {
     width: 89vw;
     display: flex;
@@ -124,19 +118,16 @@ header{
     bottom: 114px;
 }
 #sith {
-    /*! width: 762px; */
     height: 679px;
     position: relative;
     left: 324px;
 }
 #rey {
-    /*! width: 350px; */
     height: 589px;
     position: relative;
     top: 102px;
 }
 .estrutura-game-nav {
-    /*! width: 1000px; */
     font-size: 25px;
     position: relative;
     top: 40px;
@@ -155,7 +146,6 @@ header{
 .estrutura-game-nav span{
     font-weight: bolder;
 }
-
 .list-hover:hover {
     background: #d74430;
     color: white;
@@ -181,7 +171,6 @@ header{
     align-items: center;
     width: 97%;
     padding: 20px;
-    /*! position: relative; */
     bottom: 45px;
 }
 #img-gallery {
@@ -191,15 +180,12 @@ header{
 #img-gallery img {
     width: 100%;
 }
-
 .main-container2 h2{
     color: white;
     position: relative;
     right: 340px;
-    /*! bottom: 200px; */
     font-size: 2em;
     margin-bottom: 15px;
-    /*! float: left; */
 }
 .gallery-flex {
     display: flex;
@@ -211,14 +197,11 @@ header{
 .gallery-flex img  {
     width: 50%;
 }
-
 .gallery-hover:hover {
     background: url('assets/Grupo\ novos\ graficos.svg');
     background-size: cover;
 }
 .trooper-hierarquia {
-    /*! margin: 200px */
-    /*! position: relative; */
     bottom: 170px;
     display: flex;
     flex-direction: column;
@@ -250,24 +233,26 @@ header{
     display: flex;
     flex-direction: row;
     background: #fff;
-    height: 41vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 159px;
 }
 .phasma-img {
-    width: 23vw;
+    width: 25vw;
     position: relative;
     bottom: 142px;
 }
 .buttons {
-    width: 19vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: ;
     height: 40vh;
+    /*! position: relative; */
+    left: 80px;
 }
 .buttons button{
     width: 11vw;
@@ -316,4 +301,53 @@ header{
 }
 #button3 p {
    width: 100px;
+}
+.footer-container {
+    width: 75%;
+    background: #ff5a56;
+    display: flex;
+}
+.footer-content{
+    display: flex;
+
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 105vh;
+}
+#footer-logo{
+    width: 13vw;
+    padding: 25px;
+    position: relative;
+    right: 160px;
+}
+.footer-container h2 {
+    padding: 22px;
+    margin-top: 61px;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: 160px;
+}
+.footer-content p {
+    width: 39vw;
+    padding: 20px;
+    font-size: 19px;
+}
+.store-buttom img {
+    width: 15vw;
+}
+#linha10 {
+    padding: 30px;
+}
+.footer-img {
+    width: 30%;
+    /*! float: right; */
+    z-index: 1;
+}
+.footer-img img{
+    30vw;
+    width: 42vw;
+    position: relative;
+    left: 59px;
 }
