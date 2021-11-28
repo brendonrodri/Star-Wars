@@ -125,13 +125,13 @@ header{
 }
 #sith {
     /*! width: 762px; */
-    height: 700px;
+    height: 679px;
     position: relative;
     left: 324px;
 }
 #rey {
     /*! width: 350px; */
-    height: 608px;
+    height: 589px;
     position: relative;
     top: 102px;
 }
@@ -166,12 +166,14 @@ header{
 
 .main-container2 {
     width: 98.8vw;
-    height: 173vh;
+    height: 280vh;
     background: #2d2d2d;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .main-container2-gallery{
     display: flex;
@@ -179,8 +181,8 @@ header{
     align-items: center;
     width: 97%;
     padding: 20px;
-    position: relative;
-    top: 100px;
+    /*! position: relative; */
+    bottom: 45px;
 }
 #img-gallery {
     width: 40vw;
@@ -193,32 +195,117 @@ header{
 .main-container2 h2{
     color: white;
     position: relative;
-    left: 180px;
-    top: 100px;
+    right: 340px;
+    /*! bottom: 200px; */
     font-size: 2em;
     margin-bottom: 15px;
+    /*! float: left; */
 }
 .gallery-flex {
     display: flex;
     flex-direction: row;
-    /*! flex-wrap: wrap; */
-    width: 62vw;
+    flex-wrap: wrap;
+    width: 40vw;
     padding-bottom: 1px;
 }
 .gallery-flex img  {
-    width: 100%;
+    width: 50%;
 }
-.gallery-hover {
-    /*! width: 50vw; */
+
+.gallery-hover:hover {
+    background: url('assets/Grupo\ novos\ graficos.svg');
+    background-size: cover;
+}
+.trooper-hierarquia {
+    /*! margin: 200px */
     /*! position: relative; */
-    top: 140px;
+    bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
 }
-.gallery-img-hover {
-    opacity: 0;
-    transition: 1s;
+.trooper-hierarquia img{
+    width: 80vw;
+    
+}
+.trooper-hierarquia p{
+    width: 48vw;
+    font-family: 'OpenSans',;
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    font-weight: lighter;
+    margin: 10px 0px;
+}
+.buttons-container {
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    bottom: 138px;
+    top: 159px;
 }
-.gallery-img-hover:hover {
-    opacity: 1;
+.phasma-img {
+    width: 25vw;
+    position: relative;
+    bottom: 67px;
+}
+.buttons {
+    width: 19vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: ;
+    height: 40vh;
+}
+.buttons button{
+    width: 11vw;
+    height: 7vh;
+    border: none;
+    font-size: 50px:; 
+    color: #fff;
+    background: #000;
+    font-weight: lighter;
+}
+.buttons p{
+   width: 132px;
+    font-size: 15px; 
+   text-align: center;
+   padding: 25px;
+    font-weight: 300;
+}
+.buttons h3 {
+    font-size: 2em;
+    padding: 13px;
+    font-weight: normal;
+}
+.buttons:hover button {
+    background: #d74430;
+    transition: 0.5s;
+}
+.buttons:hover h3 {
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+}
+.buttons img{
+    width: 10px;
+}
+#button1 {
+    width: 5vw;
+}
+#button2 {
+    width: 5vw;
+}
+#button3 {
+    position: relative;
+    width: 5vw;
+    top: 20px;
+}
+#button3 p {
+   width: 100px;
 }
