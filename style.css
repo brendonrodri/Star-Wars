@@ -237,21 +237,29 @@ header{
     font-weight: lighter;
     margin: 10px 0px;
 }
+#como-jogar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 200px;
+    top: 100px;
+}
 .buttons-container {
     width: 99vw;
     display: flex;
     flex-direction: row;
     background: #fff;
-    height: 50vh;
+    height: 41vh;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 159px;
 }
 .phasma-img {
-    width: 25vw;
+    width: 23vw;
     position: relative;
-    bottom: 67px;
+    bottom: 142px;
 }
 .buttons {
     width: 19vw;
