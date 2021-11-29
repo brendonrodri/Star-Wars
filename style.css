@@ -51,8 +51,8 @@
     width: 100%;
 }
 .main-container1 {
-    width: 98vw;
-    height: 173vh;
+    width: 100vw;
+    height: 155vh;
     background: url('assets/main-container01.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -96,41 +96,41 @@
 .about__game--title-responsive h2{
      font-size: 1.3em;
      padding: 2px;
-    }
+}
 .about__game--title-responsive p {
-        padding: 10px 0px;
-        font-size: 15px;
-    }
-
- .sectionrow img{
+      padding: 10px 0px;
+      font-size: 15px;
+}
+.sectionrow img{
    width: 1000px;
-    }
+}
 .estrutura-game {
     width: 100vw;
     display: flex;
     position: relative;
     bottom: 19px;
     right: 59px;
+    height: 60vh;
 }
 #sith {
-    height: 21%;
+    height: 40%;
     position: relative;
-    left: 65px;
-    top: 81px;
+    left: 49px;
+    top: 86px;
 }
 #rey {
     height: 45vw;
     position: relative;
-    top: 99px;
-    right: 51px;
+    top: 108px;
+    right: 67px;
 }   
 .estrutura-game-nav {
     font-size: 15px;
     position: relative;
-    top: 60px;
+    top: 76px;
     text-align: right;
-    right: 45px;
-    z-index: 1;
+    right: 63px;
+    height: 23vh;
 }
 .estrutura-game-nav ul li {
     list-style: none;
@@ -141,11 +141,213 @@
 .estrutura-game-nav span{
     font-weight: bolder;
 }
+.list-hover:hover {
+    background: #d74430;
+    color: white;
 }
- 
-@media (min-width: 1300px)
-{
+.main-container2 {
+    width: 100vw;
+    height: 225vh;
+    background: #2d2d2d;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-container2-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    bottom: 45px;
+    flex-direction: column;
+}
+#img-gallery {
+    width: 80vw;
+}
+#img-gallery img {
+    width: 98%;
+}
+.main-container2 h2{
+    color: white;
+    font-size: 1.5em;
+}
+.gallery-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-bottom: 1px;
+    align-items: center;
+}
+.gallery-flex img  {
+    width: 80%;
+}
+.gallery-hover:hover {
+    background: url('assets/Grupo\ novos\ graficos.svg');
+    background-size: cover;
+}
+.trooper-hierarquia {
+    bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+.trooper-hierarquia img{
+    width: 100vw;
+}
+.trooper-hierarquia p{
+    width: 100vw;
+    font-family: 'OpenSans',;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin: 10px 0px;
+}
+#como-jogar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.buttons-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 113px;
+}
+.phasma-img {
+    width: 100vw;
+    position: relative;
+    right: 76px;
+    display: none;
+}
+.buttons-containter-responsive {
+        display: flex;
+    }
+   .buttons-responsive{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: ;
+    height: 40vh;
+    left: 80px;
+} 
+ .buttons-responsive{
+     width: 29vw;
+     height: 7vw;
+     border: none;
+     font-size: 50px:; 
+     color: #fff;
+     background: #000;
+     font-weight: lighter;
+}
+.buttons {
+    display: none;
+}
+.buttons-responsive p{
+    width: 132px;
+    font-size: 15px; 
+    text-align: center;
+    padding: 25px;
+    font-weight: 300;
+}
+.buttons-responsive h3 {
+    font-size: 2em;
+    padding: 13px;
+    font-weight: normal;
+}
+.buttons:hover button {
+    background: #d74430;
+    transition: 0.5s;
+}
+.buttons:hover h3 {
+    font-weight: bold;
+    transition: 0.5s;
+}
+.buttons-responsive img{
+    width: 10px;
+}
+#button1 {
+    width: 5vw;
+}
+#button2 {
+    width: 5vw;
+}
+#button3 {
+    position: relative;
+    width: 5vw;
+    top: 20px;
+}
+#button3 p {
+   width: 100px;
+}
+.footer-container {
+    width: 75%;
+    background: #ff5a56;
+    display: flex;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 105vh;
+}
+#footer-logo{
+    width: 13vw;
+    padding: 25px;
+    position: relative;
+    right: 160px;
+}
+.footer-container h2 {
+    padding: 22px;
+    margin-top: 61px;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    right: 160px;
+}
+.footer-content p {
+    width: 39vw;
+    padding: 20px;
+    font-size: 19px;
+}
+.store-buttom img {
+    width: 15vw;
+}
+#linha10 {
+    padding: 30px;
+}
+.footer-img {
+    width: 30%;
+    z-index: 1;
+}
+.footer-img img{
+    30vw;
+    width: 42vw;
+    position: relative;
+    left: 59px;
+}
+}
 
+
+{
+    
+}
+    
+
+@media (min-width: 1200px)
+{
 header{
     width: 100%;
     height: 595px;
@@ -209,6 +411,9 @@ footer{
 }
 .start-play-box img {
     width: 100%;
+}
+#about-responsive{
+    display:none;
 }
 .about__game {
     width:54vw;
@@ -350,8 +555,7 @@ footer{
     align-items: self-end;
 }
 .trooper-hierarquia img{
-    width: 80vw;
-    
+    width: 80vw;    
 }
 .trooper-hierarquia p{
     width: 48vw;
@@ -386,6 +590,9 @@ footer{
     position: relative;
     bottom: 142px;
 }
+#buttons-responsive {
+    display: none;
+}
 .buttons {
     width: 20vw;
     display: flex;
@@ -393,7 +600,6 @@ footer{
     align-items: center;
     padding: ;
     height: 40vh;
-    /*! position: relative; */
     left: 80px;
 }
 .buttons button{
@@ -424,8 +630,6 @@ footer{
 .buttons:hover h3 {
     font-weight: bold;
     transition: 0.5s;
-}
-
 }
 .buttons img{
     width: 10px;
@@ -494,4 +698,6 @@ footer{
     position: relative;
     left: 59px;
 }
+   
 }
+
