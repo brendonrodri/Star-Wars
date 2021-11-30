@@ -96,14 +96,15 @@
 .about__game--title-responsive h2{
      font-size: 1.3em;
      padding: 2px;
-}
+    }
 .about__game--title-responsive p {
-      padding: 10px 0px;
-      font-size: 15px;
-}
-.sectionrow img{
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+ .sectionrow img{
    width: 1000px;
-}
+    }
 .estrutura-game {
     width: 100vw;
     display: flex;
@@ -115,13 +116,14 @@
 #sith {
     height: 40%;
     position: relative;
-    left: 49px;
-    top: 86px;
+    left: 44px;
+    top: 65px;
+    /*! display: none; */
 }
 #rey {
     height: 45vw;
     position: relative;
-    top: 108px;
+    top: 86px;
     right: 67px;
 }   
 .estrutura-game-nav {
@@ -130,6 +132,7 @@
     top: 76px;
     text-align: right;
     right: 63px;
+    /*! z-index: 1; */
     height: 23vh;
 }
 .estrutura-game-nav ul li {
@@ -145,9 +148,9 @@
     background: #d74430;
     color: white;
 }
-.main-container2 {
+    .main-container2 {
     width: 100vw;
-    height: 225vh;
+    height: 230vh;
     background: #2d2d2d;
     margin: 0px;
     padding: 0px;
@@ -167,15 +170,22 @@
 }
 #img-gallery {
     width: 80vw;
+    /*! margin-top: 5px; */
+    /*! margin: 0px; */
 }
 #img-gallery img {
     width: 98%;
 }
 .main-container2 h2{
     color: white;
+    position: relative;
+    left: 60px;
     font-size: 1.5em;
+    /*! margin: 20px; */
+    /*! float: left; */
+    top: 19px;
 }
-.gallery-flex {
+    .gallery-flex {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -185,12 +195,14 @@
 }
 .gallery-flex img  {
     width: 80%;
+    /*! margin: 10px; */
 }
 .gallery-hover:hover {
     background: url('assets/Grupo\ novos\ graficos.svg');
     background-size: cover;
+    /*! opacity: 7.5; */
 }
-.trooper-hierarquia {
+    .trooper-hierarquia {
     bottom: 170px;
     display: flex;
     flex-direction: column;
@@ -198,72 +210,84 @@
 }
 .trooper-hierarquia img{
     width: 100vw;
+    
 }
 .trooper-hierarquia p{
-    width: 100vw;
+    width: 71vw;
     font-family: 'OpenSans',;
-    font-size: 13px;
+    font-size: 11px;
     color: white;
-    text-align: center;
+    text-align: right;
     font-weight: lighter;
-    margin: 10px 0px;
+    margin: 10px 40px;
 }
 #como-jogar {
     width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
+    /*! right: 200px; */
+    /*! top: 100px; */
 }
 .buttons-container {
     width: 100vw;
     display: flex;
     flex-direction: row;
     background: #fff;
-    height: 50vh;
+    height: 57vh;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 113px;
+    top: 55px;
 }
 .phasma-img {
-    width: 100vw;
+    width: 94vw;
     position: relative;
-    right: 76px;
-    display: none;
+    bottom: 37px;
+    right: 106px;
+    /*! display: none; */
 }
-.buttons-containter-responsive {
+    .buttons-containter-responsive {
         display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 93px;
+        top: 43px;
     }
-   .buttons-responsive{
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    padding: ;
-    height: 40vh;
-    left: 80px;
-} 
- .buttons-responsive{
-     width: 29vw;
-     height: 7vw;
-     border: none;
-     font-size: 50px:; 
-     color: #fff;
-     background: #000;
-     font-weight: lighter;
+     .buttons-responsive{
+         width: 29vw;
+        height: 36vw;
+        /*! border: none; */
+        font-size: 50px:; 
+        /*! color: #fff; */
+        /*! background: #000; */
+        /*! font-weight: lighter; */
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
 }
-.buttons {
+.buttons-responsive button{
+    width: 35vw;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 15px
+}
+    .buttons {
     display: none;
 }
 .buttons-responsive p{
-    width: 132px;
-    font-size: 15px; 
-    text-align: center;
-    padding: 25px;
+   width: 34vw;
+    font-size: 14px; 
+   text-align: center;
+   padding: 6px;
     font-weight: 300;
 }
 .buttons-responsive h3 {
     font-size: 2em;
-    padding: 13px;
+    /*! padding: 13px; */
     font-weight: normal;
 }
 .buttons:hover button {
@@ -277,18 +301,18 @@
 .buttons-responsive img{
     width: 10px;
 }
-#button1 {
-    width: 5vw;
+#button1-resp {
+    width: 20vw;
 }
-#button2 {
-    width: 5vw;
+#button2-resp {
+    width: 20vw;
 }
-#button3 {
-    position: relative;
-    width: 5vw;
-    top: 20px;
+#button3-resp {
+    /*! position: relative; */
+    width: 20vw;
+    /*! top: 20px; */
 }
-#button3 p {
+#button3-resp p {
    width: 100px;
 }
 .footer-container {
@@ -298,6 +322,7 @@
 }
 .footer-content{
     display: flex;
+
     flex-direction: column;
     width: 90%;
     align-items: center;
@@ -316,6 +341,7 @@
     font-weight: bold;
     position: relative;
     right: 160px;
+    /*! font-family: Sovereign; */
 }
 .footer-content p {
     width: 39vw;
@@ -330,6 +356,7 @@
 }
 .footer-img {
     width: 30%;
+    /*! float: right; */
     z-index: 1;
 }
 .footer-img img{
@@ -338,17 +365,16 @@
     position: relative;
     left: 59px;
 }
-}
+} 
+   
 
-
-{
     
-}
-    
+{}
+ 
 
 @media (min-width: 1200px)
 {
-header{
+    header{
     width: 100%;
     height: 595px;
     background-image: url('assets/header-background.png') ;
@@ -555,7 +581,8 @@ footer{
     align-items: self-end;
 }
 .trooper-hierarquia img{
-    width: 80vw;    
+    width: 80vw;
+    
 }
 .trooper-hierarquia p{
     width: 48vw;
@@ -600,6 +627,7 @@ footer{
     align-items: center;
     padding: ;
     height: 40vh;
+    /*! position: relative; */
     left: 80px;
 }
 .buttons button{
@@ -631,6 +659,8 @@ footer{
     font-weight: bold;
     transition: 0.5s;
 }
+
+}
 .buttons img{
     width: 10px;
 }
@@ -654,7 +684,7 @@ footer{
     display: flex;
 }
 .footer-content{
-    display: flex;
+    display: none;
 
     flex-direction: column;
     width: 90%;
@@ -691,6 +721,7 @@ footer{
     width: 30%;
     /*! float: right; */
     z-index: 1;
+    display: none;
 }
 .footer-img img{
     30vw;
@@ -698,6 +729,6 @@ footer{
     position: relative;
     left: 59px;
 }
-   
+    
 }
 
