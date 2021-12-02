@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
  
 }
-@media (max-width: 375px) 
+@media (min-width: 375px) and (max-width: 450px)
 {
     body{
         display: flex;
