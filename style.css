@@ -4,8 +4,9 @@
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
  
+    box-sizing: border-box;
 }
-@media (min-width: 375px) and (max-width: 450px)
+@media (min-width: 375px) and (max-width: 500px)
 {
     body{
         display: flex;
@@ -53,7 +54,7 @@
 }
 .main-container1 {
     width: 100vw;
-    height: 155vh;
+    height: 166vh;
     background: url('assets/main-container01.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -102,15 +103,30 @@
         padding: 10px 0px;
         font-size: 15px;
     }
-    .sectionrow {width: -18%;display: none;/*! display: flex; *//*! justify-content: center; */}
- .sectionrow img{
-   width: 50;
-    }
+#sectionrow1{
+    width: 34vw;
+    height: 5px;
+    background: #000;
+    border: none;
+    
+    margin: 3px;
+}     
+#sectionrow2{
+    width: 98vw;
+    height: 4px;
+    background: #586264;
+    border: none;
+    margin: ;
+    position: relative;
+    /*! left: 170px; */
+    top: 20px;
+}       
+ 
 .estrutura-game {
     width: 100vw;
     display: flex;
     position: relative;
-    bottom: 19px;
+    bottom: 9px;
     right: 59px;
     height: 60vh;
 }
@@ -118,7 +134,7 @@
     height: 45%;
     position: relative;
     left: 44px;
-    top: 65px;
+    top: 74px;
     /*! display: none; */
 }
 #rey {
@@ -126,12 +142,12 @@
     position: relative;
     top: 97px;
     right: 92px;
-    display: none;
+    /*! display: none; */
 }   
 .estrutura-game-nav {
     font-size: 15px;
     position: relative;
-    top: 76px;
+    top: 78px;
     text-align: right;
     right: 84px;
     /*! z-index: 1; */
@@ -152,7 +168,7 @@
 }
     .main-container2 {
     width: 100vw;
-    height: 230vh;
+    height: 240vh;
     background: #2d2d2d;
     margin: 0px;
     padding: 0px;
@@ -200,7 +216,7 @@
     width: 80%;
     /*! margin: 10px; */
 }
-.gallery-hover:hover {
+.gallery-flex img:hover {
     background: url('assets/Grupo\ novos\ graficos.svg');
     background-size: cover;
     /*! opacity: 7.5; */
@@ -238,7 +254,7 @@
     display: flex;
     flex-direction: row;
     background: #fff;
-    height: 57vh;
+    height: 62vh;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -247,8 +263,8 @@
 .phasma-img {
     width: 94vw;
     position: relative;
-    bottom: 50px;
-    right: 96px;
+    bottom: 35px;
+    right: 100px;
     /*! display: none; */
 }
     .buttons-containter-responsive {
@@ -256,11 +272,11 @@
         flex-direction: column;
         position: relative;
         right: 93px;
-        /*! top: 0px; */
+        top: 15px;
     }
      .buttons-responsive{
          width: 29vw;
-        height: 36vw;
+        height: 40vw;
         /*! border: none; */
         font-size: 50px:; 
         /*! color: #fff; */
@@ -271,53 +287,52 @@
          flex-direction: column;
          align-items: center;
 }
-.buttons-responsive button{
-    width: 35vw;
-    background: black;
-    color: #fff;
-    padding: 10px;
-    font-weight: lighter;
-    font-size: 15px
+    .buttons-responsive button{
+        width: 35vw;
+        background: black;
+        color: #fff;
+        padding: 10px;
+        font-weight: lighter;
+        font-size: 15px;
+        border: none;
 }
     .buttons {
     display: none;
 }
-.buttons-responsive p{
-   width: 34vw;
-    font-size: 14px; 
-   text-align: center;
-   padding: 6px;
-    font-weight: 300;
+    .buttons-responsive p{
+       width: 34vw;
+        font-size: 14px; 
+       text-align: center;
+       padding: 6px;
+        font-weight: 300;
 }
-.buttons-responsive h3 {
-    font-size: 2em;
-    /*! padding: 13px; */
-    font-weight: normal;
+    .buttons-responsive h3 {
+        font-size: 2em;
+        font-weight: normal;
 }
-.buttons:hover button {
-    background: #d74430;
-    transition: 0.5s;
+
+    .buttons-responsive:hover button {
+        background: #d74430;
+        transition: 0.5s;
 }
-.buttons:hover h3 {
-    font-weight: bold;
-    transition: 0.5s;
+    .buttons-responsive:hover h3 {
+        font-weight: bold;
+        transition: 0.5s;
 }
-.buttons-responsive img{
-    width: 10px;
+    .buttons-responsive img{
+        width: 10px;
 }
-#button1-resp {
-    width: 20vw;
+    #button1-resp {
+        width: 20vw;
 }
-#button2-resp {
-    width: 20vw;
+    #button2-resp {
+        width: 20vw;
 }
-#button3-resp {
-    /*! position: relative; */
-    width: 20vw;
-    /*! top: 20px; */
+    #button3-resp {
+        width: 20vw;
 }
-#button3-resp p {
-   width: 100px;
+    #button3-resp p {
+       width: 100px;
 }
     .footer-resp{
         display: flex;
@@ -325,83 +340,74 @@
     .footer-container{
     display: none;
 }
-.footer-container-resp {
-    width: 100%;
-    background: #ff5a56;
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
+    .footer-container-resp {
+        width: 100%;
+        background: #ff5a56;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        position: relative;
+        top: 55px;
 }
-.footer-content-resp{
-    display: flex;
-
-    flex-direction: column;
-    width: 90%;
-    align-items: center;
-    height: 105vh;
-    /*! justify-content: center; */
+    .footer-content-resp{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 105vh;
+   
 }
-#footer-logo-resp{
-    width: 50vw;
-    padding: 25px;
-    position: relative;
-    left: 20px;
+    #footer-logo-resp{
+        width: 50vw;
+        padding: 25px;
+        position: relative;
+        left: 20px;
+    }
+    .footer-container-resp h2 {
+        padding: 20px;
+        font-size: 3em;
+        font-weight: 700;
+        left: 20px;
+        font-size: ;
+        color: #fff;
+        text-align: center;
+        top: 10px;
 }
-.footer-container-resp h2 {
-    padding: 20px;
-    /*! margin-top: 61px; */
-    font-size: 3em;
-    font-weight: 7000;
-    position: relative;
-    left: 20px;
-    /*! font-family: Sovereign; */
-    font-size: ;
-    color: #fff;
-    text-align: center;
-    top: 10px;
+    .footer-content-resp p {
+        width: 75vw;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        left: 15px;
+        font-weight: lighter;
 }
-.footer-content-resp p {
-    width: 75vw;
-    /*! padding: 20px; */
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    left: 15px;
-    font-weight: lighter;
+      .store-buttom-resp{
+        width: 87vw;
+        padding: 20px;
+        float: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
 }
-    .store-buttom-resp{
-    width: 87vw;
-    padding: 20px;
-    float: center;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 20px
+    .store-buttom-resp img {
+        width: 50%;
+        padding: ;
+    }
+    #linha10-resp {
+        padding: 20px;
+        width: 85vw;
+        position: relative;
+        left: 20px;
 }
-.store-buttom-resp img {
-    width: 50%;
-    padding: ;
-}
-#linha10-resp {
-    padding: 20px;
-    width: 85vw;
-    /*! height: 20px; */
-    position: relative;
-    left: 20px;
-    /*! display: none; */
-}
-.footer-img-resp {
-    width: 30%;
-    /*! float: right; */
-    /*! z-index: 1; */
-}
+    .footer-img-resp {
+        width: 30%;
+    }
 .footer-img-resp img{
-    
     width: 85vw;
     position: relative;
     left: 35px;
-    top: 40px;
+    top: 16px;
 }
 } 
    
@@ -412,7 +418,7 @@
 
 @media (min-width: 1360px)
 {
-    header{
+  header{
     width: 100%;
     height: 595px;
     background-image: url('assets/header-background.png') ;
@@ -487,6 +493,8 @@ footer{
     position: relative;
     bottom: 263px;
     float: right;
+    position: relative;
+    right: 50px;
 }
 .about__game p{
     text-align: right;
@@ -514,13 +522,23 @@ footer{
     display: flex;
     font-size: 15px;
 }
-.sectionrow {
-    width: 1vw;
-    height: 2vh;
+#sectionrow1{
+    width: 10vw;
+    height: 1vh;
+    background: #000;
+    border: none;
+    margin: 4px;
 }
-.sectionrow img{
-    width: 100px;
-}
+#sectionrow2{
+    width: 82vw;
+    height: 3px;
+    background: #586264;
+    border: none;
+    margin: ;
+    position: relative;
+    left: 170px;
+    top: 36px;
+}     
 .estrutura-game {
     width: 89vw;
     display: flex;
@@ -566,7 +584,7 @@ footer{
 /* Main container 2 */
 
 .main-container2 {
-    width: 98.8vw;
+    width: 98.6vw;
     height: 280vh;
     background: #2d2d2d;
     margin: 0px;
@@ -678,7 +696,7 @@ footer{
 }
 .buttons p{
    width: 132px;
-    font-size: 15px; 
+    font-size: 14px; 
    text-align: center;
    padding: 25px;
     font-weight: 300;
@@ -704,6 +722,8 @@ footer{
 }
 #button2 {
     width: 5vw;
+    position: relative;
+    top: 24px;
 }
 #button3 {
     position: relative;
